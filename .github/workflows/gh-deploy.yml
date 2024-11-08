@@ -4,8 +4,8 @@ jobs:
   deploy-react-app:  
     runs-on: ubuntu-latest
     steps:
-    - name: clone the repository
-      uses: action/checkout@v4
+    - name: cloning the repository
+      uses: actions/checkout@v4
       
     - name: install npm packages
       run: npm install
