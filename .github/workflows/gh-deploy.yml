@@ -1,5 +1,7 @@
 name: deploy react app
 on: push
+permissions:
+  contents: write
 jobs: 
   deploy-react-app:  
     runs-on: ubuntu-latest
